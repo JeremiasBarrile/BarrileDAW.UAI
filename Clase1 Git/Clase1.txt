@@ -1,3 +1,0 @@
-Hola esta es la primer clase
-
-cree una rama llamada clase1
