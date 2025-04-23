@@ -3,21 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Noticia DAW</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <img src="https://arc-static.glanacion.com/pf/resources/images/futuria.svg?d=1803" alt="Logo FuturIA" link="https://www.lanacion.com.ar/economia/IA/">
+    <header class="encabezado">
+        <img src="https://arc-static.glanacion.com/pf/resources/images/futuria.svg?d=1803" alt="Logo FuturIA" class="logo">
         <h1 class="titulo-principal">Nvidia muda su imperio de chips a EE.UU. con inversión récord</h1>
-        <p>La decisión se da en medio de las fuertes políticas arancelarias y contará con la colaboración de empresas como TSMC, Foxconn, Wistron, Amkor y SPIL.</p>
+        <p class="bajada">La decisión se da en medio de las fuertes políticas arancelarias y contará con la colaboración de empresas como TSMC, Foxconn, Wistron, Amkor y SPIL.</p>
     </header>
 
-    <section class="cuerpo-noticia">
-        <div>
-            <img src="https://www.lanacion.com.ar/resizer/v2/nvidia-construira-instalaciones-en-phoenix-dallas-DJEIKDFSAFCHLJYJAD6EWCNWGU.jpg?auth=b5595df6e1dea9d6a0f6fb6644bfe7a5a76a61fba58876fa66f9fa4bed2f053f&width=880&height=586&quality=70&smart=false&focal=957,766" alt="Imagen de Nvidia">
+    <section class="contenido">
+        <div class="meta">
+            <span>15 de abril de 2025</span> •
+            <span>12:35</span> •
+            <span>🕒 3 minutos de lectura</span>
         </div>
+
+        <img src="https://www.lanacion.com.ar/resizer/v2/nvidia-construira-instalaciones-en-phoenix-dallas-DJEIKDFSAFCHLJYJAD6EWCNWGU.jpg?auth=b5595df6e1dea9d6a0f6fb6644bfe7a5a76a61fba58876fa66f9fa4bed2f053f&width=880&height=586&quality=70&smart=false&focal=957,766" class="imagen-noticia" alt="Imagen de Nvidia">
 
         <article>
             <p>Por primera vez en su historia, Nvidia construirá servidores de inteligencia artificial (IA) en Estados Unidos, con la colaboración de empresas como TSMC, Foxconn, Wistron, Amkor y SPIL. Se trata de un plan de cuatro años en el que la compañía invertirá 500 mil millones de dólares.</p>
@@ -31,9 +35,7 @@
             <p>Sin embargo, EE.UU. informó que eximirá a productos electrónicos como teléfonos y chips de sus aranceles recíprocos a China. Se espera una nueva tasa sobre los chips importados.</p>
         </article>
 
-        <div>
-            <img src="https://resizer.glanacion.com/resizer/v2/desde-la-casa-blanca-atribuyeron-la-decision-de-S7SFWHOAHVC6TPRXNOQQ5OP3EE.JPG?auth=3d5fa04226c4952a4d1f2108a2423381b49b035d49dc394f723f354613c9179a&width=780&height=520&quality=70&smart=true" alt="Trump en conferencia">
-        </div>
+        <img src="https://resizer.glanacion.com/resizer/v2/desde-la-casa-blanca-atribuyeron-la-decision-de-S7SFWHOAHVC6TPRXNOQQ5OP3EE.JPG?auth=3d5fa04226c4952a4d1f2108a2423381b49b035d49dc394f723f354613c9179a&width=780&height=520&quality=70&smart=true" class="imagen-noticia" alt="Trump en conferencia">
 
         <article>
             <p>Respecto a la decisión de Nvidia, la Casa Blanca indicó que se debe al “efecto Trump”. Según el comunicado: “El presidente Donald J. Trump ha hecho de la fabricación de chips en EE.UU. una prioridad, logrando billones en nuevas inversiones en el sector tecnológico”.</p>
@@ -43,11 +45,11 @@
             <p>“La deslocalización de estas industrias es buena para el trabajador estadounidense, la economía y la seguridad nacional”, concluye el comunicado.</p>
         </article>
 
-        <h2>Temas</h2>
-        <p>FuturIA - Inteligencia Artificial - Nvidia</p>
+        <h2 class="temas">Temas</h2>
+        <p class="etiquetas">FuturIA - Inteligencia Artificial - Nvidia</p>
     </section>
 
-    <section>
+    <section class="suscripcion">
         <h2>Suscribite a nuestras noticias</h2>
         <form action="#" method="post">
             <label for="nombre">Nombre:</label>
@@ -56,14 +58,15 @@
             <label for="email">Correo electrónico:</label>
             <input type="email" id="email" name="email" required>
 
-            <button href="http://127.0.0.1:5500/DAW%20Jeremias%20Barrile/index.html" type="submit">Suscribirse</button>
+            <button type="submit">Suscribirse</button>
         </form>
     </section>
 
-    <footer>
-        <img src="https://arc-static.glanacion.com/pf/resources/images/futuria.svg?d=1803" alt="Logo FuturIA" href="https://www.lanacion.com.ar/economia/IA/">
+    <footer class="footer">
+        <img src="https://arc-static.glanacion.com/pf/resources/images/futuria.svg?d=1803" alt="Logo FuturIA" class="logo">
         <h3>LA NACION</h3>
     </footer>
 
 </body>
 </html>
+
