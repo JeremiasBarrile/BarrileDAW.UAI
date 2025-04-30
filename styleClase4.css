@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    color: #222;
+}
+
+.contenedor {
+    width: 960px;
+    margin: auto;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    font-size: 36px;
+    color: #f7931e;
+    margin: 0;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 14px;
+    color: #666;
+}
+
+.bc {
+    font-size: 12px;
+    color: #888;
+    margin: 15px 0;
+}
+
+.titulo {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.subtitulo {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.autor,
+.fecha {
+    font-size: 13px;
+    color: #999;
+    margin-bottom: 5px;
+}
+
+.social {
+    margin-bottom: 20px;
+}
+
+.principal {
+    width: 100%;
+}
+
+.contenido {
+    width: 66%;
+    float: left;
+}
+
+.lateral {
+    width: 30%;
+    float: right;
+    background: #f9f9f9;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.imagen {
+    width: 100%;
+    margin: 15px 0;
+}
+
+.recuadro {
+    background: #fff8f0;
+    border-left: 4px solid #f7931e;
+    padding: 10px;
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.lateral h3 {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.lateral ul,
+.lateral ol {
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+.lateral li {
+    margin-bottom: 10px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
